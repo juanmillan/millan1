@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Criptoanalisis Playfair</title>
+	</head><style>
+        html{
+            background-color:#000000;
+            color:#FFFFFF;
+        }
+        h1{
+            color:#3d6fb4;
+        }
+        h1,h5{
+            text-align:center;
+        }
+
+    </style>
+	<body>
+		<form method="POST" action="" name="inicio">
+			<div style="text-align: center;">
+				<font style="font-weight: bold;" size="5">Mensaje</font>
+				<br>
+				<textarea cols="50" rows="10" name="mensaje"></textarea>
+				<br>
+				<br>
+				Clave:		<input type="text" name="clave" maxlength="6" size="5">
+				Fila:		<input type="text" name="fila" maxlength="9" size="5">
+				Columna:	<input type="text" name="columna" maxlength="10" size="5">
+				<br>
+				<br>
+				<input type="submit" onclick = "this.form.action = 'Encriptar.php'" name="encriptar" value="Encriptar">
+				<input type="submit" onclick = "this.form.action = 'Desencriptar.php'" name="desencriptar" value="Desencriptar">
+				<br>
+				<br>
+				
+			</div>
+		</form>
+	</body>
+</html>
