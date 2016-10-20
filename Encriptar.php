@@ -5,7 +5,7 @@
 	$columna = $_POST['columna'];
 
 	if($mensaje=='' || $clave=='' || $fila=='' || $columna=='')
-		echo "<script language='javascript'>alert('Debe Completar Todos los Campos');window.location='Polialfabetico.html'</script>";
+		echo "<script language='javascript'>alert('Debe Completar Todos los Campos');window.location='index.html'</script>";
 
 	 $alfabeto = array('Á', 'É', 'Í', 'Ó', 'Ú', 'á', 'é', 'í', 'ó', 'ú',
                       'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
